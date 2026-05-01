@@ -1,0 +1,11 @@
+@EndUserText: {
+  label: 'Service Definition for ZMEC_MED_DBTRE'
+}
+@ObjectModel: {
+  leadingEntity: {
+    name: 'ZMEC_MED_DBTRE'
+  }
+}
+define service ZMEUI_MED_DBT_O4RE provider contracts odata_v4_ui {
+  expose ZMEC_MED_DBTRE;
+}

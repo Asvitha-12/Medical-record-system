@@ -1,0 +1,6 @@
+@EndUserText.label: 'ZMEC_MED_DBTRE'
+@MappingRole: true
+define role ZMEC_MED_DBTRE {
+  grant select on ZMEC_MED_DBTRE
+  where INHERITING CONDITIONS FROM ENTITY ZMER_MED_DBTRE REPLACING { ROOT WITH _BaseEntity };
+}

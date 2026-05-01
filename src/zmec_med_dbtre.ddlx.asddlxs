@@ -1,0 +1,279 @@
+@Metadata.layer: #CORE
+@UI.headerInfo.title.type: #STANDARD
+@UI.headerInfo.title.value: 'RecordID'
+@UI.headerInfo.description.type: #STANDARD
+@UI.headerInfo.description.value: 'RecordID'
+annotate view ZMEC_MED_DBTRE with
+{
+  @EndUserText.label: 'RecordID'
+  @UI.facet: [ {
+    label: 'General Information', 
+    id: 'GeneralInfo', 
+    purpose: #STANDARD, 
+    position: 10 , 
+    type: #IDENTIFICATION_REFERENCE
+  } ]
+  @UI.identification: [ {
+    position: 10 , 
+    label: 'RecordID'
+  } ]
+  @UI.lineItem: [ {
+    position: 10 , 
+    label: 'RecordID'
+  } ]
+  @UI.selectionField: [ {
+    position: 10 
+  } ]
+  RecordID;
+  
+  @EndUserText.label: 'PatientID'
+  @UI.identification: [ {
+    position: 20 , 
+    label: 'PatientID'
+  } ]
+  @UI.lineItem: [ {
+    position: 20 , 
+    label: 'PatientID'
+  } ]
+  @UI.selectionField: [ {
+    position: 20 
+  } ]
+  PatientID;
+  
+  @EndUserText.label: 'PatientName'
+  @UI.identification: [ {
+    position: 30 , 
+    label: 'PatientName'
+  } ]
+  @UI.lineItem: [ {
+    position: 30 , 
+    label: 'PatientName'
+  } ]
+  @UI.selectionField: [ {
+    position: 30 
+  } ]
+  PatientName;
+  
+  @EndUserText.label: 'Age'
+  @UI.identification: [ {
+    position: 40 , 
+    label: 'Age'
+  } ]
+  @UI.lineItem: [ {
+    position: 40 , 
+    label: 'Age'
+  } ]
+  @UI.selectionField: [ {
+    position: 40 
+  } ]
+  Age;
+  
+  @EndUserText.label: 'Dob'
+  @UI.identification: [ {
+    position: 50 , 
+    label: 'Dob'
+  } ]
+  @UI.lineItem: [ {
+    position: 50 , 
+    label: 'Dob'
+  } ]
+  @UI.selectionField: [ {
+    position: 50 
+  } ]
+  Dob;
+  
+  @EndUserText.label: 'Gender'
+  @UI.identification: [ {
+    position: 60 , 
+    label: 'Gender'
+  } ]
+  @UI.lineItem: [ {
+    position: 60 , 
+    label: 'Gender'
+  } ]
+  @UI.selectionField: [ {
+    position: 60 
+  } ]
+  Gender;
+  
+  @EndUserText.label: 'PatientNumber'
+  @UI.identification: [ {
+    position: 70 , 
+    label: 'PatientNumber'
+  } ]
+  @UI.lineItem: [ {
+    position: 70 , 
+    label: 'PatientNumber'
+  } ]
+  @UI.selectionField: [ {
+    position: 70 
+  } ]
+  PatientNumber;
+  
+  @EndUserText.label: 'PatientAddress'
+  @UI.identification: [ {
+    position: 80 , 
+    label: 'PatientAddress'
+  } ]
+  @UI.lineItem: [ {
+    position: 80 , 
+    label: 'PatientAddress'
+  } ]
+  @UI.selectionField: [ {
+    position: 80 
+  } ]
+  PatientAddress;
+  
+  @EndUserText.label: 'DoctorName'
+  @UI.identification: [ {
+    position: 90 , 
+    label: 'DoctorName'
+  } ]
+  @UI.lineItem: [ {
+    position: 90 , 
+    label: 'DoctorName'
+  } ]
+  @UI.selectionField: [ {
+    position: 90 
+  } ]
+  DoctorName;
+  
+  @EndUserText.label: 'DoctorSpecialization'
+  @UI.identification: [ {
+    position: 100 , 
+    label: 'DoctorSpecialization'
+  } ]
+  @UI.lineItem: [ {
+    position: 100 , 
+    label: 'DoctorSpecialization'
+  } ]
+  @UI.selectionField: [ {
+    position: 100 
+  } ]
+  DoctorSpecialization;
+  
+  @EndUserText.label: 'Sympotoms'
+  @UI.identification: [ {
+    position: 110 , 
+    label: 'Sympotoms'
+  } ]
+  @UI.lineItem: [ {
+    position: 110 , 
+    label: 'Sympotoms'
+  } ]
+  @UI.selectionField: [ {
+    position: 110 
+  } ]
+  Sympotoms;
+  
+  @EndUserText.label: 'Diagnosis'
+  @UI.identification: [ {
+    position: 120 , 
+    label: 'Diagnosis'
+  } ]
+  @UI.lineItem: [ {
+    position: 120 , 
+    label: 'Diagnosis'
+  } ]
+  @UI.selectionField: [ {
+    position: 120 
+  } ]
+  Diagnosis;
+  
+  @EndUserText.label: 'Prescription'
+  @UI.identification: [ {
+    position: 130 , 
+    label: 'Prescription'
+  } ]
+  @UI.lineItem: [ {
+    position: 130 , 
+    label: 'Prescription'
+  } ]
+  @UI.selectionField: [ {
+    position: 130 
+  } ]
+  Prescription;
+  
+  @EndUserText.label: 'VisitDate'
+  @UI.identification: [ {
+    position: 140 , 
+    label: 'VisitDate'
+  } ]
+  @UI.lineItem: [ {
+    position: 140 , 
+    label: 'VisitDate'
+  } ]
+  @UI.selectionField: [ {
+    position: 140 
+  } ]
+  VisitDate;
+  
+  @UI.identification: [ {
+    position: 150 
+  } ]
+  @UI.lineItem: [ {
+    position: 150 
+  } ]
+  @UI.selectionField: [ {
+    position: 150 
+  } ]
+  LocalCreatedBy;
+  
+  @UI.identification: [ {
+    position: 160 
+  } ]
+  @UI.lineItem: [ {
+    position: 160 
+  } ]
+  @UI.selectionField: [ {
+    position: 160 
+  } ]
+  LocalCreatedAt;
+  
+  @UI.identification: [ {
+    position: 170 
+  } ]
+  @UI.lineItem: [ {
+    position: 170 
+  } ]
+  @UI.selectionField: [ {
+    position: 170 
+  } ]
+  LocalLastChangedBy;
+  
+  @UI.identification: [ {
+    position: 180 
+  } ]
+  @UI.lineItem: [ {
+    position: 180 
+  } ]
+  @UI.selectionField: [ {
+    position: 180 
+  } ]
+  LocalLastChangedAt;
+  
+  @UI.identification: [ {
+    position: 190 
+  } ]
+  @UI.lineItem: [ {
+    position: 190 
+  } ]
+  @UI.selectionField: [ {
+    position: 190 
+  } ]
+  LastChangedAt;
+  
+  @EndUserText.label: '_BaseEntity'
+  @UI.identification: [ {
+    position: 200 , 
+    label: '_BaseEntity'
+  } ]
+  @UI.lineItem: [ {
+    position: 200 , 
+    label: '_BaseEntity'
+  } ]
+  @UI.selectionField: [ {
+    position: 200 
+  } ]
+  _BaseEntity;
+}

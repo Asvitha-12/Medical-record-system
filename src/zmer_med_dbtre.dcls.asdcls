@@ -1,0 +1,6 @@
+@EndUserText.label: 'ZMER_MED_DBTRE'
+@MappingRole: true
+define role ZMER_MED_DBTRE {
+  grant select on ZMER_MED_DBTRE
+  where TRUE;
+}
